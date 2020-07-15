@@ -1,0 +1,238 @@
+{
+  "camera": {
+    "type": "perspective",
+    "focal_length": 1,
+    "eye": [0,0,2],
+    "up": [0,1,0],
+    "look": [0,0,-1],
+    "height": 1,
+    "focal_plane": 1.6,
+    "width": 1.7777777778
+  },
+
+  "lights":[
+    {
+      "type": "spot",
+      "color": [0.7,0.7,0.7],
+      "position": [0.25,1,0.1],
+	  "angle": 15,
+	  "direction": [0,-1,0]
+    },
+    {
+      "type": "point",
+      "color": [0.3,0.3,0.3],
+      "position": [-0.9,0.9,2]
+    },
+    {
+      "type": "point",
+      "color": [0.6,0.6,0.6],
+      "position": [0.9,0.9,2]
+    }
+  ],
+
+  "materials": [
+    {
+      "name": "matte gray",
+      "ka": [0.90, 0.90, 0.90],
+      "kd": [0.95, 0.95, 0.95],
+      "ks": [0.3,0.3,0.3],
+      "km": [0.8,0.8,0.8],
+      "kt": [0.0,0.0,0.0],
+	  "ior": 1,
+      "phong_exponent": 200
+    },
+    {
+      "name": "glass",
+      "ka": [0.1,0.1,0.1],
+      "kd": [0.1,0.1,0.1],
+      "ks": [0.2,0.2,0.2],
+      "km": [0.1,0.1,0.1],
+      "kt": [0.9,0.9,0.9],
+	  "ior": 1.04,
+      "phong_exponent": 500
+    },
+    {
+      "name": "blue metal",
+      "ka": [0.215686,0.494118,0.721569],
+      "kd": [0.215686,0.494118,0.721569],
+      "ks": [0.2,0.2,0.2],
+      "km": [0.2,0.2,0.2],
+      "kt": [0.0,0.0,0.0],
+	  "ior": 1,
+      "phong_exponent": 500
+    },
+    {
+      "name": "turqoise",
+      "ka": [0.29412,0.89020,0.79216],
+      "kd": [0.29412,0.89020,0.79216],
+      "ks": [0.9,0.9,0.9],
+      "km": [0.6,0.6,0.6],
+      "type" : "glossy",
+      "kt": [0.0,0.0,0.0],
+	  "ior": 1,
+      "phong_exponent": 1000
+    },
+    {
+      "name": "orange",
+      "ka": [1,0.66667,0],
+      "kd": [1,0.66667,0],
+      "ks": [0.8,0.8,0.8],
+      "km": [0.0,0.0,0.0],
+      "kt": [0.0,0.0,0.0],
+	  "ior": 1,
+      "phong_exponent": 500
+    },
+    {
+      "name": "purple",
+      "ka": [0.65098,0,1],
+      "kd": [0.65098,0,1],
+      "ks": [0.8,0.8,0.8],
+      "km": [0.0,0.0,0.0],
+      "kt": [0.0,0.0,0.0],
+	  "ior": 1,
+      "phong_exponent": 1000
+    },
+    {
+      "name": "pink",
+      "ka": [1,0.65882,0.98431],
+      "kd": [1,0.65882,0.98431],
+      "ks": [0.8,0.8,0.8],
+      "km": [0.05,0.05,0.05],
+      "kt": [0.0,0.0,0.0],
+	  "ior": 1,
+      "phong_exponent": 1000
+    },
+    {
+      "name": "yellow",
+      "ka": [0.98431,1,0],
+      "kd": [0.98431,1,0],
+      "ks": [0.8,0.8,0.8],
+      "km": [0.5,0.5,0.5],
+      "kt": [0.0,0.0,0.0],
+	  "ior": 1,
+      "phong_exponent": 500
+    },
+    {
+      "name": "red",
+      "ka": [1,0.18431,0.03921],
+      "kd": [1,0.18431,0.03921],
+      "ks": [0.8,0.8,0.8],
+      "km": [0.1,0.1,0.1],
+      "kt": [0.0,0.0,0.0],
+	  "ior": 1,
+      "phong_exponent": 5000
+    },
+    {
+      "name": "blue",
+      "ka": [0,0.1,0.1],
+      "kd": [0,0.1,0.1],
+      "ks": [0.1,0.1,0.1],
+      "km": [0.15,0.15,0.15],
+      "kt": [0.9,0.9,0.9],
+	  "ior": 1.04,
+      "phong_exponent": 100
+    },
+    {
+      "name": "green",
+      "ka": [0,0.83922,0.12549],
+      "kd": [0,0.83922,0.12549],
+      "ks": [0.1,0.1,0.1],
+      "km": [0.0,0.0,0.0],
+      "kt": [0.0,0.0,0.0],
+	  "ior": 1,
+      "phong_exponent": 0
+    },
+    {
+      "name": "purple metal",
+      "ka": [0.596078,0.305882,0.639216],
+      "kd": [0.596078,0.305882,0.639216],
+      "ks": [0.2,0.2,0.2],
+      "km": [0.1,0.1,0.1],
+      "kt": [0.9,0.9,0.9],
+	  "ior": 1.33,
+      "phong_exponent": 500
+    }
+  ],
+
+  "objects": [
+    {
+      "type": "sphere",
+      "material": "red",
+      "center": [1,-0.25,-1.25],
+      "radius": 0.75
+    },
+    {
+      "type": "sphere",
+      "material": "orange",
+      "center": [0.9,-0.85,-0.4],
+      "radius": 0.15
+    },
+    {
+      "type": "sphere",
+      "material": "turqoise",
+      "center": [1.35,-0.5,0],
+      "radius": 0.5
+    },
+    {
+      "type": "sphere",
+      "material": "purple",
+      "center": [0.25,-0.65,0.1],
+      "radius": 0.35
+    },
+    {
+      "type": "sphere",
+      "material": "green",
+      "center": [-1.5,-0.85,0.2],
+      "radius": 0.18
+    },
+    {
+      "type": "sphere",
+      "material": "yellow",
+      "center": [-1.4,-0.4,-1.5],
+      "radius": 0.6
+    },
+    {
+      "type": "sphere",
+      "material": "pink",
+      "center": [-0.3,-0.7,-0.1],
+      "radius": 0.3
+    },
+    {
+      "type": "sphere",
+      "material": "glass",
+      "center": [-1.15,-0.55,-0.25],
+      "radius": 0.45
+    },
+    {
+      "type": "plane",
+      "material": "blue metal",
+      "point": [-2,0,0],
+      "normal": [1,0,0]
+    },
+    {
+      "type": "plane",
+      "material": "blue metal",
+      "point": [0,0,-2],
+      "normal": [0,0,1]
+    },
+    {
+      "type": "aplane",
+      "material": "blue metal",
+      "point": [0,1,0],
+      "normal": [0,-1,0]
+    },
+    {
+      "type": "plane",
+      "material": "blue metal",
+      "point": [2,0,0],
+      "normal": [-1,0,0]
+    },
+    {
+      "material": "matte gray",
+      "type": "plane",
+      "point": [0,-1,0],
+      "normal": [0,1,0]
+    }
+  ]
+}
+
