@@ -16,6 +16,7 @@ Ray Tracer built in C++. Images are rendered using the following features:
     
     
 cmake command to build
+> mkdir build && cd build
 > cmake .. -DTHREAD=ON -DCMAKE_BUILD_TYPE=Release
 
 
