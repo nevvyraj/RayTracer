@@ -1,0 +1,143 @@
+{
+  "camera": {
+    "type": "perspective",
+    "focal_length": 3,
+    "eye": [5,1.6,15],
+    "up": [0,1,0],
+    "look": [-0.3,0,-1],
+    "height": 1,
+    "width": 1.7777777778
+  },
+  "materials": [
+    {
+      "name": "gold-background",
+      "ka": [1.0, 0.8745, 0.0],
+      "kd": [1.00, 0.8745, 0.00],
+      "ks": [1.00,0.8745,0.00],
+      "km": [0.4,0.4,0.4],
+      "phong_exponent": 1000000
+    },
+    {
+      "name": "white-background",
+      "ka": [1.0, 1.0, 1.0],
+      "kd": [1.00, 1.00, 1.00],
+      "ks": [1.00,1.00,1.00],
+      "km": [0.3,0.3,0.3],
+      "phong_exponent": 1000
+    },
+    {
+      "name": "red",
+      "ka": [1.00, 0.00, 0.00],
+      "kd": [0.98, 0.40, 0.0118],
+      "ks": [1.00,0.00,0.00],
+      "km": [0.05,0.05,0.05],
+      "phong_exponent": 10
+    },
+    {
+      "name": "blue",
+      "ka": [0.00, 0.00, 1.00],
+      "kd": [0.00, 0.00, 1.00],
+      "ks": [0.00,0.00,1.00],
+      "km": [0.5,0.5,0.5],
+      "phong_exponent": 10
+    },
+    {
+      "name": "low-purple",
+      "ka": [0.00, 0.00, 0.00],
+      "kd": [0.667, 0.1725, 0.7216],
+      "ks": [0.00,0.00,0.00],
+      "km": [0.5,0.5,0.0],
+      "phong_exponent": 10
+    },
+    {
+      "name": "mid-purple",
+      "ka": [0.00, 0.00, 0.00],
+      "kd": [0.8157, 0.2196, 0.8784],
+      "ks": [0.00,0.00,0.00],
+      "km": [0.5,0.5,0.0],
+      "phong_exponent": 10
+    },
+    {
+      "name": "high-purple",
+      "ka": [0.00, 0.00, 0.00],
+      "kd": [0.9254, 0.25098, 1],
+      "ks": [0.00,0.00,0.00],
+      "km": [0.5,0.5,0.0],
+      "phong_exponent": 10
+    },
+    {
+      "name": "white",
+      "ka": [1.00, 1.00, 1.00],
+      "kd": [1.00, 1.00, 1.00],
+      "ks": [1.00,1.00,1.00],
+      "km": [0.5,0.5,0.5],
+      "phong_exponent": 100000000
+    }
+  ],
+  "lights":[
+	{
+      "type": "directional",
+      "direction": [0,-1,0],
+      "color": [0.1,0.1,0.1]
+    },
+	{
+      "type": "point",
+      "position": [0,4,2],
+      "color": [0.6,0.6,0.6]
+    },
+	{
+      "type": "point",
+      "position": [-10.5,20,-14],
+      "color": [0.0,0.02,1.0]
+    },
+	{
+      "type": "point",
+      "position": [0,4,-12],
+      "color": [0.4,0.4,0.4]
+    }
+  ],
+  "objects": [
+	{
+		"material": "gold-background",
+		"type": "plane",
+	   	"point": [0,-0.5,0],
+		"normal": [0,1,0]
+	},
+    {
+      "type": "sphere",
+      "material": "red",
+      "center": [0,0.5,0],
+      "radius": 1
+    },
+    {
+      "type": "sphere",
+      "material": "blue",
+      "center": [2.5,0.5,-5],
+      "radius": 1
+    },
+    {
+      "type": "sphere",
+      "material": "white",
+      "center": [-2.5,0.5,-5],
+      "radius": 1
+    },
+    {
+      "type": "sphere",
+      "material": "mid-purple",
+      "center": [-10.5,3.5,-14],
+      "radius": 1
+    },
+    {
+      "type": "sphere",
+      "material": "high-purple",
+      "center": [-10.5,5,-14],
+      "radius": 0.5
+    },
+    {
+      "type": "sphere",
+      "material": "low-purple",
+      "center": [-10.5,1,-14],
+      "radius": 1.5
+    }
+  ]
+}
