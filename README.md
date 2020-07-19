@@ -19,3 +19,19 @@ cmake command to build
 > mkdir build && cd build
 
 > cmake .. -DTHREAD=ON -DCMAKE_BUILD_TYPE=Release
+
+<h3> Rendered Images </h3>
+
+FINAL_IMAGE
+![](rendered_images/FINAL_IMAGE.png)
+
+dof_near
+![](rendered_images/dof_near.png)
+
+dof_far
+
+![](rendered_images/dof_far.png)
+
+rgb_mirror
+
+![](rendered_images/rgb_mirror.png)
