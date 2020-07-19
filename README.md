@@ -21,3 +21,6 @@ cmake command to build
 > cmake .. -DTHREAD=ON -DCMAKE_BUILD_TYPE=Release
 
 
+![image one]
+(https://github.com/nevvyraj/RayTracer/blob/master/rendered_images/dof_near.ppm)
+
