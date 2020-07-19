@@ -22,5 +22,5 @@ cmake command to build
 
 
 ![image one]
-(https://github.com/nevvyraj/RayTracer/blob/master/rendered_images/dof_near.ppm)
+(/rendered_images/dof_near.ppm)
 
