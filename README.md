@@ -19,8 +19,3 @@ cmake command to build
 > mkdir build && cd build
 
 > cmake .. -DTHREAD=ON -DCMAKE_BUILD_TYPE=Release
-
-
-![image one]
-(/rendered_images/dof_near.ppm)
-
