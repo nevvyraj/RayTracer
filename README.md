@@ -25,13 +25,13 @@ cmake command to build
 FINAL_IMAGE
 ![](rendered_images/FINAL_IMAGE.png)
 
-dof_near
+Depth of Field - Near focus
 ![](rendered_images/dof_near.png)
 
-dof_far
+Depth of Field - Far focus
 
 ![](rendered_images/dof_far.png)
 
-rgb_mirror
+Mirrors
 
 ![](rendered_images/rgb_mirror.png)
